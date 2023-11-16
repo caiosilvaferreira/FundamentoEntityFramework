@@ -6,9 +6,11 @@ O ENTITY É USADO MAIS PARA GRANDES PROCESSAMENTO DE DADOS E O DAPPER É USADO N
 
 # O QUE É METADADOS
 
-                             Em um contexto do Entity Framework, metadados se referem a informações sobre o modelo de dados que descrevem a estrutura das entidades, os mapeamentos para as tabelas do banco de dados e outros detalhes relevantes para a persistência e recuperação de dados. Os metadados são essenciais para o funcionamento correto do Entity Framework, pois permitem que ele entenda como as entidades estão relacionadas com as tabelas do banco de dados e como as consultas e operações de persistência devem ser traduzidas para comandos SQL.
 
+Em um contexto do Entity Framework, metadados se referem a informações sobre o modelo de dados que descrevem a estrutura das entidades, os mapeamentos para as tabelas do banco de dados e outros detalhes relevantes para a persistência e recuperação de dados. Os metadados são essenciais para o funcionamento correto do Entity Framework, pois permitem que ele entenda como as entidades estão relacionadas com as tabelas do banco de dados e como as consultas e operações de persistência devem ser traduzidas para comandos SQL.
 resumindo ajuda a entender todo os processos que foi feito de update, delete e outros é uma informação há mais para auxiliar o entity, e isso tudo é armazenado no tracking, e o AsNoTracking no código ajuda a desabilitar toda a consulta referente ao metadados quando queremos fazer uma simples query
+                
+		
 
 ---
 
